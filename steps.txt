@@ -1,0 +1,69 @@
+1- React --> JS Library --> Facebook - 2013
+
+2- SPA --> Virtual Dom 
+
+3- SPA --> No Reload 
+
+4- npx create-react-app appname 
+
+5- npx vs npm 
+
+6- jsx  --> Javascript XML -- UI 
+    class --> className
+    each tag --> close 
+    style ={{"property": "value"}}
+    img src={}
+____________________________________________
+
+--> Reusable Components: 
+        1- Class Components --> < v-16.8
+                1- life cycle method 
+                    constructor 
+                    render
+                    componentDidMount
+                    componentDidUpdate
+                    componentWillUnMount
+                2- state - setState --> Local variables 
+                3- props --> share data between components
+
+        2- Function Components > 16.8
+
+                1- state - setState  ---> useState
+
+                const [name, setName] = useState("ahmed")
+
+                2- life cycle method  --->  useEffect 
+
+                1- componentDidMount : --> empty array  
+                    useEffect(() => {
+
+                    }, [])
+
+                2- componentDidUpdate: --> 
+                    useEffect (() => {
+
+                    }, [Dependancy (state)])
+
+                3- componentWillUnMount: --> 
+
+                    useEffect(() => {
+                        return(
+                            
+                        )
+                    },[])
+____________________________________________
+Form: 
+    1- create Your Form Component using bootstrap
+
+    2- define constatnt using useState to handle input value 
+
+    3- add for each input (name, onChange, value)
+
+    4- define onChange function to setState the data (input controlled)
+
+    5- define constatnt using useState to handle the Validation
+
+    6- define your Validations rules 
+
+    7- return the errors in JSX code 
+____________________________________________
